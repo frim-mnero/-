@@ -80,6 +80,7 @@
 .info-gr_item{
     display: flex;
     align-items: center;
+    gap: 25px;
 }
 .info-gr_descr{
     font-size: 25px;
@@ -104,6 +105,10 @@
     border: 1px solid black;
     border-radius: 7px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
 }
 .item_card-img{
     width: 100%;
