@@ -113,6 +113,8 @@
     text-align: center;
     font-size: 20px;
     padding: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 .item_card-buy{
     display: flex;
