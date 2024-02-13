@@ -16,6 +16,10 @@
 .header{
     padding: 24px 0;
 }
+.header-tel{
+    color: #000;
+    border-bottom: 1px solid;
+}
 .header-main{
     justify-content: space-between;
     gap: 15px;
@@ -143,4 +147,48 @@
     font-size: 23px;
     font-weight: 700;
     align-self: flex-end;
+}
+.foot{
+    font-size: 35px;
+    text-align: center;
+}
+.foot_descr{
+    font-size: 24px;
+    margin-top: 8px;
+    line-height: 38px;
+}
+.zakaz{
+    margin-top: 35px;
+}
+.tel{
+    color: #03c1be;
+}
+.footer{
+    background: rgb(20, 20, 20);
+    padding: 21px 0;
+}
+.footer__title,
+.footer__item-text{
+    color: #fff;
+}
+.footer__title{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.footer__group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer__item{
+    display: flex;
+    gap: 12px;
+}
+a.footer__item-text{
+    border-bottom: 1px dotted #fff;
+    font-weight: 900;
+}
+.footer__item-text{
+    font-size: 18px;
+    font-weight: lighter;
 }
