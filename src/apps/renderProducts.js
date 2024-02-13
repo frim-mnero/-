@@ -115,6 +115,10 @@ const products = [
 let cardItem = ''
 
 let out = document.querySelector('.products__items');
+
+const btnBron=document.querySelector(".item_card-btn");
+
+
 products.forEach ((el) => {
     cardItem =
     `          <div class="product__item_card">
@@ -130,3 +134,12 @@ products.forEach ((el) => {
 })
 
 
+
+let card_btn = document.querySelectorAll(".item_card-btn");
+    
+card_btn.forEach((e)=>{
+    e.addEventListener('click',function(e){
+        e.preventDefault();
+       document.querySelector("#zakaz").scrollIntoView({behavior:"smooth"});
+    });
+});
