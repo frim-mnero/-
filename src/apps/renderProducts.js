@@ -1,16 +1,16 @@
 const cardContainer = document.querySelector(".product__item_card");
 
 getCard();
-
 async function getCards(){
-
-    const response = await fetch('./src/apps/products.json');
+    console.log('work');
+    const response = await fetch('../src/apps/products.json');
     console.log(response);
 
     const cardArray = await response.json();
     console.log(cardArray);
 
     renderCards(cardArray);
+  
 }
 
 function renderCards(cardArray) {
