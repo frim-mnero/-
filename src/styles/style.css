@@ -103,9 +103,11 @@ body{
     color: #000;
 }
 .info{
+    text-align: center;
     font-family: 'Roboto', sans-serif;
-    color: #fff;
+    color: #ff0000;
     padding: 38px 0 44px 0;
+    border: 2px solid red;
     box-shadow: 
     0 0 .1rem #fff,
     0 0 .2rem #fff,
@@ -134,7 +136,7 @@ body{
     margin: 0 auto;
     margin-bottom: 30px;
     padding: 8px;
-    border: solid 2px #fff;
+    border: solid 2px #ff0000;
     border-radius: 0.8rem;
     box-shadow: 
       0 0 .1rem #fff,
