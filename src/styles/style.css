@@ -421,7 +421,7 @@ a.footer__item-text{
         
     }
     .item_card-price{
-        font-size: 18px;
+        font-size: 14px;
     }
 }
 @media(max-width:485px){
