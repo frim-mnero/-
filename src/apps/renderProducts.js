@@ -5,16 +5,6 @@ const products = [
         price:"53 000"  
     },
     {
-        image:"https://60.img.avito.st/image/1/1.NUwupLa4maUYDVugSLx1ZyQGm6OQBRutWACbp54Nka-Y.fAdztkKlXfdb55VwTVVV_1ipnNgP57bzKwx59y8KOn4",
-        title:"Columbia штаны",
-        price:"3 500 "
-    },
-    {
-        image:"https://30.img.avito.st/image/1/1.rewzg7a4AQUFKsMAZcXPxzkhAwONIoMNRScDB4MqCQ-F.MxfCtebHCWWC8ufyUzLwwbIqAp2hC3jbW1X74d4Kgx0",
-        title:"Ретро олимпийка из 90 х СССР",
-        price:"550"
-    },
-    {
         image:"https://20.img.avito.st/image/1/1.CfIXRba4pRsh7GceCSFw4hvnpx2p5CcTYeGnGafsrRGh.BK5ywf6aRrFCpcKrLM2VS5jRCKqR5YD9jgxQTegLUzQ",
         title:"Телевизор samsung 65 дюймов",
         price:"26 500"
@@ -43,16 +33,6 @@ const products = [
         image:"https://50.img.avito.st/image/1/1.p2li17a4C4BUfsmFIKnLaW91CYbcdomIFHMJgtJ-A4rU.UysC46FtexZFlySiRpToul3xwCJnUEfaszvTFJpLxkM",
         title:"Свет для съемки",
         price:"799"
-    },
-    {
-        image:"https://60.img.avito.st/image/1/1.IXQMqLa4jZ06Hw-QQqBmJwEKj5uyCQ-LOgSPn7wBhZe6.0_9JGGMENuwbAbMbiihUmGjt65XddbRU0EgbsVowm6Y",
-        title:"Nike air jordan",
-        price:"3 500"
-    },
-    {
-        image:"https://90.img.avito.st/image/1/1.N0n837a4m6DKdlmlnp9ZCPF9maZCfhmoinuZokx2k6pK.OjztEcHK2GMK4OlUwRcQvPawk5br0NBpZbzeQYNa1M8",
-        title:"Кеды levis мужские",
-        price:"3 450"
     },
     {
         image:"https://90.img.avito.st/image/1/1.oU2o2La4DaSecc-h5r78JqV6D6IWeY-s3nwPphhxBa4e.i05CLMoMNvfq8OtpdGSWFE5ne49tyTYZhpNLMKqBll8",
