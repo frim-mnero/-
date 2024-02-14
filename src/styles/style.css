@@ -43,6 +43,7 @@
     justify-content: space-between;
 }
 .header__middle_geo{
+    align-items: center;
     gap: 25px;
 }
 .header-item{
@@ -214,6 +215,32 @@ a.footer__item-text{
     .wrapper{
         margin: 0 41px;
     }
+    .header__logo-link{
+        font-size: 27px;
+    }
+    .header-geo{
+        font-size: 18px;
+    }
+    .header-tel{
+        font-size: 21px;
+        text-wrap: nowrap;
+    }
+}
+@media(max-width:485px){
+    .header-logo-link{
+        font-size: 20px;
+    }
+    .header-middle{
+        gap: 0;
+    }
+    .header__middle_geo{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .header-tel{
+        font-size: 16px;
+    }
+
 }
 @media(max-width:425px){
     .info__title{
