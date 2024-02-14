@@ -395,6 +395,9 @@ a.footer__item-text{
     .wrapper{
         margin: 0 41px;
     }
+    .info__descriprion{
+        font-size: 24px;
+    }
     .header__logo-link{
         font-size: 27px;
     }
@@ -411,6 +414,9 @@ a.footer__item-text{
     }
 }
 @media(max-width:570px){
+    .info__descriprion{
+        font-size: 18px;
+    }
     .product__item_card{
         max-width: 160px;
         max-height: 500px;
@@ -445,7 +451,7 @@ a.footer__item-text{
         font-size: 32px;
     }
     .info__descriprion{
-        font-size: 22px;
+        font-size: 14px;
     }
     .info-gr_descr{
         font-size: 18px;
