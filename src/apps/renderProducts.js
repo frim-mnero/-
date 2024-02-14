@@ -125,7 +125,7 @@ products.forEach ((el) => {
                     <img src="${el.image}" alt="" class="item_card-img">
                     <p class="item_card-title">${el.title}</p>
                     <div class="item_card-buy">
-                        <button class="item_card-btn">Забронировать</button>
+                        <button class="item_card-btn">Купить</button>
                         <p class="item_card-price">${el.price} ₽</p>
                     </div>
                 </div>
